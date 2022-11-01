@@ -29,8 +29,6 @@ public class LionTest {
         } catch (Exception ex) {
             exception = ex;
         }
-        //boolean ActualNotNull = (exception != null);
-        //Assert.assertEquals("NullPointerException", true, ActualNotNull);
         Assert.assertEquals(expected, exception.getMessage());
     }
 
